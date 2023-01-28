@@ -1,0 +1,116 @@
+/* the main part of the document */
+body {
+    background-color:gray;
+}
+
+/* the navigation buttons */
+a {
+    font-family: "Helvetica", "Arial", sans-serif;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 60px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 12px;
+    color: #fff;
+    background-color: #1ED760;
+    height: 24px;
+}
+
+/* the lists of information */
+ul {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    outline: none;
+}
+
+/* the elements of the lists of information */
+p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    outline: none;
+}
+
+/* the elements of the lists of information on the powers page */
+li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    outline: none;
+}
+
+/* the background information about Goku */
+.big-justify {
+    font-family: "Helvetica", "Arial", sans-serif;
+    outline: none;
+}
+
+/* the image of goku */
+#big-image {
+    border: 0;
+    padding: 0;
+    display: block;
+    clear: right;
+    float: none;
+    margin: 0 auto;
+    width: 200px;
+}
+
+/* the titles of the pages */
+h2 {
+    font-family: helvetica,arial,sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: .25px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+/* subheadings on pages */
+h3 {
+    font-family: helvetica,arial,sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: .25px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+/* the scroll bar */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+/* the quote by goku */
+.thick-opacity {
+    font-size: 14px;
+    line-height: 1.75;
+    font-family: rubik,helvetica,arial,sans-serif;
+    -webkit-box-direction: normal;
+    --fixed-table-header-offset: 0;
+    color: var(--theme-page-text-color);
+    box-sizing: inherit;
+}
