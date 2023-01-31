@@ -3,7 +3,8 @@ body {
     background-color:gray;
 }
 
-/* the navigation buttons */
+/* the navigation buttons
+modeled after the spotify buttons */
 a {
     font-family: "Helvetica", "Arial", sans-serif;
     display: inline-block;
@@ -25,7 +26,8 @@ a {
     height: 24px;
 }
 
-/* the lists of information */
+/* the lists of information about goku
+such as powers and transformations */
 ul {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -33,7 +35,8 @@ ul {
     outline: none;
 }
 
-/* the elements of the lists of information */
+/* the elements of the lists of information
+preserves uniform spacing between lines */
 p {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -41,7 +44,8 @@ p {
     outline: none;
 }
 
-/* the elements of the lists of information on the powers page */
+/* the elements of the lists of information on the powers page
+formatted differently from the transformation information */
 li {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -55,7 +59,7 @@ li {
     outline: none;
 }
 
-/* the image of goku */
+/* the image of goku on the main page */
 #big-image {
     border: 0;
     padding: 0;
@@ -96,7 +100,7 @@ h3 {
     word-break: break-word;
 }
 
-/* the scroll bar */
+/* the scroll bar at the top of the screen */
 .fixed-top {
     position: fixed;
     top: 0;
@@ -104,7 +108,7 @@ h3 {
     left: 0;
 }
 
-/* the quote by goku */
+/* the quote by goku on the main page */
 .thick-opacity {
     font-size: 14px;
     line-height: 1.75;
